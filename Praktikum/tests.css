@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-style: normal;
+  background-color: #FFF9D0;
+  font-family: 'Uni Neue';
+  padding-top: 40px;
+}
+@font-face{
+  font-family: 'Uni Neue';
+  src: url('unineueheavy-italic.ttf');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  padding-left: 50px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+  background-color: #E0FFFF;
+  width: 1200px;
+}
+.all {
+  margin-bottom: 30px;
+  color: #DAA520;
+}
+img {
+  width: 400px;
+  border:4px solid #FFA07A;
+}
+.choice{
+  color: #9400D3;
+  text-align: center;
+}
+#open-test{
+  color: #FFA07A;
+}
+.name{
+  color: #9400D3;
+  font-size: large;
+}
+.test{
+  text-align: center;
+  font-size: 50px;
+}
+.imtext h2{
+  text-align: center;
+}
+.imtext{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.imtext div{
+  width: 40%;
+}
+span{
+  border:10px solid #FFA07A;
+  border-radius: 100%;
+  background-color: #FFA07A;
+  color: #8B0000;
+}
+#go{
+  background-color: #E0FFFF;
+  border: 3px solid  #FFA07A;
+  color: #FFA07A;
+  font-family: 'Uni Neue';
+  font-size: 20px;
+  padding: 3px;
+  cursor: pointer;
+  display: flex;
+  margin: auto;
+}
+.question{
+  margin-top: 10px;
+}
